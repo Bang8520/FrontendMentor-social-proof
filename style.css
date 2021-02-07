@@ -1,0 +1,157 @@
+* {
+  font-family: "Spartan", sans-serif;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  position: relative;
+}
+
+.img0,
+.img00 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.img00 {
+  margin-left: 80px;
+}
+
+.container {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.p-card {
+  margin-top: 3%;
+}
+
+.r {
+  line-height: 18px;
+}
+
+.pro {
+  color: hsl(300, 43%, 22%);
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 3%;
+  padding: 1%;
+  width: 60%;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.pro1,
+.pro2 {
+  color: hsl(300, 43%, 22%);
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.pro1 {
+  font-size: 200%;
+  font-weight: bolder;
+  line-height: 2.2rem;
+  padding-left: 5%;
+  padding-right: 35%;
+}
+
+.pro2 {
+  margin-top: 4%;
+  font-weight: 250;
+  opacity: 70%;
+  font-size: 80%;
+  padding-left: 5%;
+  padding-right: 35%;
+}
+
+.col1,
+.col2,
+.col3 {
+  margin: 2%;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5%;
+  padding: 3%;
+  color: white;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.col1 {
+  margin-top: 1%;
+  margin-bottom: auto;
+  margin-right: 0%;
+}
+
+.col2 {
+  margin-top: 3%;
+  margin-bottom: auto;
+  margin-right: 0%;
+}
+
+.col3 {
+  margin-top: 6%;
+  margin-bottom: auto;
+}
+
+.img {
+  border-radius: 50%;
+  height: 40%;
+  width: 24%;
+  margin-right: 3%;
+  margin-bottom: 5%;
+  background-color: hsl(300, 43%, 22%);
+}
+
+.text {
+  font-size: 70%;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 2.5%;
+}
+
+.img2 {
+  padding-right: 0px;
+  display: inline;
+}
+
+.row2 {
+  margin-left: 5%;
+}
+
+.row3 {
+  margin-left: 11%;
+}
+
+@media screen and (max-width: 576px) {
+  .pro1,
+  .pro2 {
+    padding-left: 11%;
+    padding-right: 12%;
+  }
+
+  .container {
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    width: 90%;
+  }
+
+  .row1,
+  .row2,
+  .row3 {
+    margin-right: 0;
+    margin-left: 13%;
+    width: 75%;
+  }
+
+  .col1,
+  .col2,
+  .col3 {
+    margin-right: 0;
+    margin-left: 13%;
+    width: 75%;
+  }
+}
